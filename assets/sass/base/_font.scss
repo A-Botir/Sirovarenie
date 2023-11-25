@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src:  local('Roboto Regular'),
+    url('/assets/font/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src:  local('Roboto Medium'),
+    url('/assets/font/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src:  local('Roboto Bold'),
+    url('/assets/font/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Circe Rounded';
+    font-style: normal;
+    font-weight: 400;
+    src:  local('Circe Rounded Regular'),
+    url('/assets/font/Circe Rounded/CirceRounded-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Circe Rounded';
+    font-style: normal;
+    font-weight: 700;
+    src:  local('Circe Rounded Bold'),
+    url('/assets/font/Circe Rounded/CirceRounded-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Circe Rounded';
+    font-style: normal;
+    font-weight: 800;
+    src:  local('Circe Rounded Extra Bold'),
+    url('/assets/font/Circe Rounded/CirceRounded-ExtraBold.otf') format('truetype');
+}
