@@ -40,24 +40,27 @@
                 <section class="header_mid d-flex-c container">
                     <a href="#" class="header_mid__logo"><img src="./assets/images/icons/head-logo.svg" alt="header logo" width="231" height="42"></a>
                     <div class="header_mid__cards d-flex-c">
-                        <div class="header_mid__card d-flex-c">
+                        <div class="header_mid__card header_mid__card--1 header_mid__card d-flex-c">
                             <img src="./assets/images/icons/head-delivery-icon.svg" alt="box icon" width="28" height="28">
                             <p class="head_mid__card head_mid__card--text1">Бесплатная<br>доставка</p>
                         </div>
-                        <div class="header_mid__card d-flex-c">
+                        <div class="header_tooltip header_tooltip--1">Дарим бесплатную доставку в пределах России при заказе товара на сумму от 2500 руб.</div>
+                        <div class="header_mid__card header_mid__card--2 d-flex-c">
                             <img src="./assets/images/icons/head-credit-icon.svg" alt="card icon" width="28" height="28">
                             <p class="head_mid__card head_mid__card--text2">Скидка при<br>оплате на сайте</p>
                         </div>
-                        <div class="header_mid__card d-flex-c">
+                        <div class="header_tooltip header_tooltip--2">Скидки до 50% при оплате с нашего оициального сайта, успейте получить и вовремя!</div>
+                        <div class="header_mid__card header_mid__card--3 d-flex-c">
                             <img src="./assets/images/icons/head-protection-icon.svg" alt="protection icon" width="28" height="28">
                             <p class="head_mid__card head_mid__card--text2">Защита<br>покупателей</p>
                         </div>
+                        <div class="header_tooltip header_tooltip--3">При вашем желании - все ваши персональные данные останутся в конфиденциальности</div>
                     </div>
                     <span class="header_mid__line"></span>
                     <div class="header_mid__media d-flex-c">
-                        <a href="https://telegram.org/"><img src="./assets/images/icons/head-telegram-icon.svg" alt="telegram logo" width="24" height="24"></a>
-                        <a href="https://www.whatsapp.com/"><img src="./assets/images/icons/head-whatsup-icon.svg" alt="whatsapp logo" width="24" height="24"></a>
-                        <a href="https://www.messenger.com/"><img src="./assets/images/icons/head-messenger-icon.svg" alt="messenger logo" width="24" height="24"></a>
+                        <a href="https://telegram.org/" target="_blank"><img src="./assets/images/icons/head-telegram-icon.svg" alt="telegram logo" width="24" height="24"></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><img src="./assets/images/icons/head-whatsup-icon.svg" alt="whatsapp logo" width="24" height="24"></a>
+                        <a href="https://www.messenger.com/" target="_blank"><img src="./assets/images/icons/head-messenger-icon.svg" alt="messenger logo" width="24" height="24"></a>
                     </div>
                     <div class="header_mid__tell">
                         <a href="tel:+8 916 460-19-60" class="header_mid__number">+8 916 460-19-60</a>
@@ -97,9 +100,166 @@
                 </section>
                 <span class="header_line"></span>
         </header>
-        <main>
+        <main class="main">
+            <div class="main_container container d-flex-sl">
+                <section class="main__sidebar">
+                    <p class="sidebar_link">Главная >&nbsp;<a href="#" class="sidebar_link__color">О нашей компании</a></p>
+                    <nav class="sidebar_nav sidebar_nav--1">
+                        <ul class="sidebar_nav__list">
+                            <li class="sidebar_nav__title d-flex-l"><img src="./assets/images/icons/navbar-icon-1.svg" alt="cheese icon" width="22" height="22"><p class="sidebar_nav__text">Ингредиенты</p></li>
+                            <li class="sidebar_nav__item">
+                                <input type="checkbox" id="clickCheckbox" class="click-checkbox">
+                                <label for="clickCheckbox">
+                                <div class="sidebar_nav__check d-flex-sb">
+                                    <span>Закваски для сыра</span>
+                                    <img src="./assets/images/icons/sidebar arrow.svg" alt="arrow" class="navbar_icon">
+                                </div>
+                                </label>
+                                <ul class="sidebar_nav__checked">
+                                    <li><a href="#" class="navbar__checked">Лактобактерии</a></li>
+                                    <li><a href="#" class="navbar__checked">Стрептококки</a></li>
+                                    <li><a href="#" class="navbar__checked">Геотрихум</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar_nav__item">
+                            <div class="sidebar_nav__check d-flex-sb">
+                                <span>Ферменты для сыра</span>
+                                <img src="./assets/images/icons/sidebar arrow.svg" alt="arrow" class="navbar_icon">
+                            </div></li>
+                            <li class="sidebar_nav__item"><a href="#" class="sidebar_nav__link">Хлористый кальций</a></li>
+                            <li class="sidebar_nav__item">                            
+                            <div class="sidebar_nav__check d-flex-sb">
+                                <span>Плесень для сыра</span>
+                                <img src="./assets/images/icons/sidebar arrow.svg" alt="arrow" class="navbar_icon">
+                            </div></li>
+                            <li class="sidebar_nav__item">                            
+                            <div class="sidebar_nav__check d-flex-sb">
+                                <span>Кисломолочные закваски</span>
+                                <img src="./assets/images/icons/sidebar arrow.svg" alt="arrow" class="navbar_icon">
+                            </div>
+                            </li>
+                            <li class="sidebar_nav__item"><a href="#" class="sidebar_nav__link">Красители для сыра</a></li>
+                            <li class="sidebar_nav__item sidebar_nav__item--border">                            
+                            <div class="sidebar_nav__check d-flex-sb">
+                                <span>Специи для сыра</span>
+                                <img src="./assets/images/icons/sidebar arrow.svg" alt="arrow" class="navbar_icon">
+                            </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="sidebar_nav">
+                        <ul class="sidebar_nav__list">
+                            <li class="sidebar_nav__title d-flex-l"><img src="./assets/images/icons/navbar-icon-2.svg" alt="cereal bowl icon" width="22" height="22"><p class="sidebar_nav__text">Оборудование</p></li>
+                            <li class="sidebar_nav__item">                            
+                            <div class="sidebar_nav__check d-flex-sb">
+                                <span>Формы для сыра</span>
+                                <img src="./assets/images/icons/sidebar arrow.svg" alt="arrow" class="navbar_icon">
+                            </div>
+                            </li>
+                            <li class="sidebar_nav__item"><a href="#" class="sidebar_nav__link">Латексное покрытие</a></li>
+                            <li class="sidebar_nav__item"><a href="#" class="sidebar_nav__link">Воск для сыра</a></li>
+                            <li class="sidebar_nav__item">
+                            <div class="sidebar_nav__check d-flex-sb">
+                                <span>Термоусадочные пакеты</span>
+                                <img src="./assets/images/icons/sidebar arrow.svg" alt="arrow" class="navbar_icon">
+                            </div>
+                            </li>
+                            <li class="sidebar_nav__item"><a href="#" class="sidebar_nav__link">Дренажные коврики</a></li>
+                            <li class="sidebar_nav__item"><a href="#" class="sidebar_nav__link">Дренажные мешки и салфетки для прессования</a></li>
+                            <li class="sidebar_nav__item sidebar_nav__item--border"><a href="#" class="sidebar_nav__link">Дренажные контейнеры</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="main_content .container_main">
+                    <div class="about">
+                        <h2 class="about__title">О нашей компании</h2>
+                        <div class="about__group d-flex-sl">
+                            <p class="about__subtitle">Сыроделие</p>
+                            <img src="./assets/images/foto/main-cheese-image.png" alt="main cheese img" width="400" height="280" class="about__image">
+                        </div>
+                    </div>
+                    <span class="main_content__line"></span>
+                    <div class="our_command">
+                        <h2 class="command__title">Наши мастера</h2>
+                        <div class="command__card_container d-flex-sb">
+                            <div class="command__card">
+                                <img src="./assets/images/foto/card-image-1.jpg" alt="woman" width="260" height="260" class="command__card_image">
+                                <h2 class="command__card_title">Ирина</h2>
+                                <p class="command__card_subtitle">«По-рижский фермер»</p>
+                                <p class="command__card_text">При заказе я всегда уверена в качестве товара – компания не скрывает сертификаты качества, эпидемиологические заключения и другую информацию.</p>
+                            </div>
+                            <div class="command__card">
+                                <img src="./assets/images/foto/card-image-2.jpg" alt="man" width="260" height="260" class="command__card_image">
+                                <h2 class="command__card_title">Алексей</h2>
+                                <p class="command__card_subtitle">«Cыроварня Ильиных»</p>
+                                <p class="command__card_text">Мне нравится, что в любой момент я могупозвонить своему менеджеру и получить пол-ноценную профессиональную консультацию.</p>
+                            </div>
+                            <div class="command__card">
+                                <img src="./assets/images/foto/card-image-3.jpg" alt="big man" width="260" height="260" class="command__card_image">
+                                <h2 class="command__card_title">Сергей Иванович</h2>
+                                <p class="command__card_subtitle">КФХ Елизаровых</p>
+                                <p class="command__card_text">При заказе я всегда уверена в качестве товара – компания не скрывает сертификаты качества, эпидемиологические заключения и другую информацию.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="main_content__line"></span>
+                    <div class="advantage">
+                        <h2 class="advantage__title">Преимущества работы с нашим магазином</h2>
+                        <div class="advantage__card_container d-flex-l">
+                            <div class="advanrage__card">
+                                <img src="./assets/images/icons/card_phone-icon.svg" alt="phone icon" width="48" height="48" class="advanrage__card_img">
+                                <p class="advanrage__card_text">Профессиональная информационная поддержка, вы можете в любой момент связаться с нами</p>
+                            </div>
+                            <div class="advanrage__card">
+                                <img src="./assets/images/icons/card_protected-icon.svg" alt="protected icon" width="48" height="48" class="advanrage__card_img">
+                                <p class="advanrage__card_text">Гарантия качества всей продукции, при заказе товара вы можете увидеть сертификат</p>
+                            </div>
+                            <div class="advanrage__card">
+                                <img src="./assets/images/icons/card_refresh-icon.svg" alt="refresh icon" width="48" height="48" class="advanrage__card_img">
+                                <p class="advanrage__card_text">Программа лояльности, бонусы, акции, лучшие предложения только у нас</p>
+                            </div>
+                            <div class="advanrage__card">
+                                <img src="./assets/images/icons/card_delivery-icon.svg" alt="delivery icon" width="48" height="48" class="advanrage__card_img">
+                                <p class="advanrage__card_text">Вы покупаете всё в одном месте или оставить запрос и мы превезем под заказ</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="principes">
+                <div class="principes_content d-flex-c">
+                <div class="principes__card principes_card--1">
+                    <div class="principes_card__back">
+                    <h2 class="principes_card__title">Клиент всегда прав</h2>
+                    <p class="principes_card__text">Мы стремимся обеспечить обслуживание клиентов таким образом, чтобы на всех этапах сотрудничества клиент ощущал комфорт и удовлетворение. Наивысшей оценка нашей деятельности являются положительные отзывы о нашей компании.</p>
+                    <a href="#" class="principes_card__link"><button class="principes_card__button">Оставить отзыв</button></a>
+                    </div>
+                </div>
+                <div class="principes__card principes_card--2">
+                    <h2 class="principes_card__title">Лучший результат</h2>
+                    <p class="principes_card__text">Наши товары, помогут Вам достичь лучших результатов</p>
+                </div>
+                </div>
+            </section>
+            <section class="shop d-flex-c container">
+                <div class="shop_text">
+                    <h2 class="shop_text__title">О нашем магазине</h2>
+                    <ul class="shop_text__list">
+                        <li class="shop_text__item">Интернет-магазин «ЛяЧиз» предлагает своим покупателям широчайший ассортимент оборудования, ингредиентов и аксессуаров для домашнего сыроделия.</li>
+                        <li class="shop_text__item">С нашей продукцией у Вас появится возможность приготовить любой сыр в домашних условиях и насладиться всеми его оттенками и разнообразием, а также Вы окунётесь в мир сыроделия и узнаете всё о приготовлении любого вида сыра своими руками.</li>
+                        <li class="shop_text__item"> С нашим оборудованием у вас появится возможность расширить свои способности, а также приготовить вкусный и качественный сыр.</li>
+                        <li class="shop_text__item">"ЛяЧиз" за качество, надёжность, технологичность и презентабельность! Будем и дальше радовать вас большим ассортиментом и новинками, а вы нас - своими заказами!</li>
+                    </ul>
+                </div>
+                <div class="shop_card__container d-flex-c">
+                    <img src="/assets/images/foto/cheese_image-1.svg" alt="cheese 1 img" class="shop_card">
+                    <img src="/assets/images/foto/cheese_image-2.svg" alt="cheese 2 img" class="shop_card">
+                    <img src="/assets/images/foto/cheese_image-3.svg" alt="cheese 3 img" class="shop_card">
+                    <img src="/assets/images/foto/cheese_image-4.svg" alt="cheese 4 img" class="shop_card">
+                </div>
+            </section>
         </main>
-        <footer class="footer">
+        <footer class="footer container">
               <div class="footer_container container d-flex-sc">
                 <div class="footer_logo__block">
                 <a href="#"><img src="./assets/images/icons/footer_logo.svg" alt="footer logo" width="199" height="30" class="footer_logo__image"></a>
@@ -149,11 +309,11 @@
                         <p class="footer_info__text">г. Москва, улица Свободы 1/7</p>
                     </div>
                     <div class="footer_info__media d-flex-c">
-                        <a href="https://www.instagram.com/"><img src="./assets/images/icons/footer-media-instagramm-logo.svg" alt="instagram icon" width="24" height="24"></a>
-                        <a href="https://vk.com/"><img src="/assets/images/icons/footer-media-vk-logo.svg" alt="vk icon" width="24" height="24"></a>
-                        <a href="https://twitter.com/"><img src="/assets/images/icons/footer-media-twitter-logo.svg" alt="twitter icon" width="24" height="24"></a>
-                        <a href="https://facebook.com/"><img src="/assets/images/icons/footer-media-facebook-logo.svg" alt="facebook icon" width="24" height="24"></a>
-                        <a href="https://youtube.com/"><img src="/assets/images/icons/footer-media-youtube-logo.svg" alt="youtube icon" width="24" height="24"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/icons/footer-media-instagramm-logo.svg" alt="instagram icon" width="24" height="24"></a>
+                        <a href="https://vk.com/" target="_blank"><img src="/assets/images/icons/footer-media-vk-logo.svg" alt="vk icon" width="24" height="24"></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="/assets/images/icons/footer-media-twitter-logo.svg" alt="twitter icon" width="24" height="24"></a>
+                        <a href="https://facebook.com/" target="_blank"><img src="/assets/images/icons/footer-media-facebook-logo.svg" alt="facebook icon" width="24" height="24"></a>
+                        <a href="https://youtube.com/" target="_blank"><img src="/assets/images/icons/footer-media-youtube-logo.svg" alt="youtube icon" width="24" height="24"></a>
                     </div>
                 </div>
             </div>

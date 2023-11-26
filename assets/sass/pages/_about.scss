@@ -1,1 +1,319 @@
 // style.css sho'tta
+.main{
+    .main_container{
+        padding-top: 20px;
+        padding-bottom: 100px;
+        gap: 80px;
+        .main__sidebar{
+            .sidebar_link{
+                color: var(--primary-dark-grey, #808080);
+                font-family: 'Circe Rounded';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0.14px;
+                margin-bottom: 20px;
+                .sidebar_link__color{
+                    color: var(--primary-orange, #FD9339);
+                    font-family: 'Circe Rounded';
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0.14px;
+                }
+            }
+            .sidebar_nav{
+                max-width: 280px;
+                border-radius: 6px;
+                border: 1px solid #E7E7E7;
+                background: var(--primary-white, #FFF);
+                .sidebar_nav__list{
+                    .sidebar_nav__title{
+                        padding: 12px;
+                        background-color: #FBE8BB;
+                        gap: 8px;
+                        border-top-left-radius: 6px;
+                        border-top-right-radius: 6px;
+                        .sidebar_nav__text{
+                            color: var(--primary-brown, #4E2D2D);
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 22px
+                        }
+                    }
+                    .sidebar_nav__item{
+                        padding: 12px 16px;
+                        border-bottom: 1px solid #E6E6E6;
+                        .click-checkbox{
+                            display: none;
+                        }
+                        .sidebar_nav__check{
+                            color: var(--primary-black, #292929);
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            cursor: pointer;
+                        }
+                        .sidebar_nav__checked{
+                            display: none;
+                            .navbar__checked{
+                                color: var(--primary-black, #292929);
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                margin-left: 10px;
+                            }
+                        }
+                        .click-checkbox:checked + .sidebar_nav__checked {
+                            display: block;
+                        }
+                        .sidebar_nav__link{
+                            color: var(--primary-black, #292929);
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }   
+                    }
+                    .sidebar_nav__item--border{
+                        border: none;
+                    }
+                }
+            }
+            .sidebar_nav--1{
+                margin-bottom: 19px;
+            }
+        }
+        .main_content{
+            margin-top: 42px;
+            max-width: 820px;
+            box-sizing: border-box;
+            .about{
+                margin-bottom: 40px;
+                .about__title{
+                    color: var(--primary-brown, #4E2D2D);
+                    font-family: 'Circe Rounded';
+                    font-size: 28px;
+                    font-weight: 800;
+                    line-height: 40px;
+                    letter-spacing: 0.28px;
+                    margin-bottom: 30px;
+                }
+                .about__group{
+                    gap: 295px;
+                    .about__subtitle{
+                        color: var(--primary-brown, #4E2D2D);
+                        font-family: 'Circe Rounded';
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 32px;
+                        letter-spacing: 0.24px;
+                    }
+                    .about__image{
+                        height: 280px;
+                    }
+                }
+            }
+            .main_content__line{
+                display: block;
+                width: 100%;
+                background-color: #808080;
+                height: 1px;
+                opacity: 0.1;
+                margin-bottom: 40px;
+            }
+            .our_command{
+                margin-top: 10px;
+                margin-bottom: 40px;
+                .command__title{
+                    color: var(--primary-brown, #4E2D2D);
+                    font-family: 'Circe Rounded';
+                    font-size: 24px;
+                    font-weight: 800;
+                    line-height: 32px;
+                    letter-spacing: 0.24px;
+                    text-transform: uppercase;
+                    margin: 20px 0;
+                }
+                .command__card_container{
+                    flex-wrap: wrap;
+                    .command__card{
+                        .command__card_image{
+                            border-radius: 5px;
+                            min-height: 260px;
+                        }
+                        .command__card_title{
+                            color: var(--primary-brown, #4E2D2D);
+                            font-family: 'Circe Rounded';
+                            font-size: 24px;
+                            font-weight: 800;
+                            line-height: 32px;
+                            letter-spacing: 0.24px;
+                            text-transform: uppercase;
+                        }
+                        .command__card_subtitle{
+                            color: var(--primary-brown, #4E2D2D);
+                            font-family: 'Circe Rounded';
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 10px;
+                        }
+                        .command__card_text{
+                            width: 260px;
+                            color: #666;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+            .advantage{
+                .advantage__title{
+                    color: var(--primary-brown, #4E2D2D);
+                    font-family: 'Circe Rounded';
+                    font-size: 24px;
+                    font-weight: 800;
+                    line-height: 32px;
+                    letter-spacing: 0.24px;
+                    text-transform: uppercase;
+                    margin-bottom: 30px;
+                }
+                .advantage__card_container{
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    .advanrage__card{
+                        padding: 20px 20px 0 30px;
+                        border-radius: 5px;
+                        border: 1px solid #E7E7E7;
+                        background: var(--primary-white, #FFF);
+                        box-sizing: border-box;
+                        max-width: 400px;
+                        min-height: 170px;
+                        max-height: 171px;
+                        .advanrage__card_img{
+                            margin-bottom: 30px;
+                        }
+                        .advanrage__card_text{
+                            width: 350px;
+                            color: var(--primary-dark-grey, #808080);
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .principes{
+        max-width: 1680px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 109px;
+        .principes_content{
+            gap: 20px;
+            .principes__card{
+                min-width: 830px;
+                max-width: 830px;
+                min-height: 420px;
+                .principes_card__title{
+                    color: var(--primary-brown, #4E2D2D);
+                    font-family: 'Circe Rounded';
+                    font-size: 28px;
+                    font-weight: 800;
+                    line-height: 40px;
+                    letter-spacing: 0.28px;
+                    margin-bottom: 14px;
+                }
+                .principes_card__text{
+                    color: #666;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                }
+                .principes_card__link{
+                    margin-top: 6px;
+                    .principes_card__button{
+                        padding: 16px 50px;
+                        border-radius: 5px;
+                        background: var(--primary-orange, #FD9339);
+                        color: var(--primary-white, #FFF);
+                        text-align: center;
+                        font-family: 'Circe Rounded';
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .principes_card--1{
+                width: 100%;
+                height: 100%;
+                padding: 94px 102px 66px 250px;
+                background-color: #FEE9A5;
+                background-image: url("/assets/images/back/aside_back-1.svg");
+                background-repeat: no-repeat;
+                background-size: 830px 420px;
+                .principes_card__back{
+                    background-image: url("/assets/images/back/aside_back-1-element.svg");
+                    background-repeat: no-repeat;
+                    background-position: 670px 260px;
+                    .principes_card__text{
+                        width: 478px;
+                    }
+            }
+            }
+            .principes_card--2{
+                width: 100%;
+                height: 100%;
+                background-color: #D2D2D3;
+                padding: 94px 333px 224px 80px;
+                background-image: url("/assets/images/back/aside_back-2.svg");
+                background-repeat: no-repeat;
+                .principes_card__text{
+                    width: 330px;
+                }
+
+           }
+        }
+    }
+
+    .shop{
+        gap: 100px;
+        margin-bottom: 108px;
+        .shop_text{
+            .shop_text__title{
+                color: var(--primary-brown, #4E2D2D);
+                font-family:' Circe Rounded';
+                font-size: 28px;
+                font-weight: 800;
+                line-height: 40px;
+                letter-spacing: 0.28px;
+                margin-bottom: 24px;
+            }
+            .shop_text__list{
+                display:flex;
+                flex-direction: column;
+                gap: 20px;
+                max-width: 500px;
+                .shop_text__item{
+                    color: #666;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    width: 500px;
+                }
+            }
+        }
+        .shop_card__container{
+            flex-wrap: wrap;
+            gap: 20px;
+            .shop_card{
+                border-radius: 5px;
+                max-width: 280px;
+                min-height: 220px;
+            }
+        } 
+    }
+}
