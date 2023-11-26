@@ -26,22 +26,22 @@
     font-family: 'Circe Rounded';
     font-style: normal;
     font-weight: 400;
-    src:  local('Circe Rounded Regular'),
-    url('/assets/font/Circe Rounded/CirceRounded-Regular.otf') format('truetype');
+    src:  local('CirceRounded-Regular'),
+    url('/assets/font/Circe Rounded/CirceRounded-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Circe Rounded';
     font-style: normal;
     font-weight: 700;
-    src:  local('Circe Rounded Bold'),
-    url('/assets/font/Circe Rounded/CirceRounded-Bold.otf') format('truetype');
+    src:  local('CirceRounded-Bold'),
+    url('/assets/font/Circe Rounded/CirceRounded-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Circe Rounded';
     font-style: normal;
     font-weight: 800;
-    src:  local('Circe Rounded Extra Bold'),
-    url('/assets/font/Circe Rounded/CirceRounded-ExtraBold.otf') format('truetype');
+    src:  local('CirceRounded-ExtrBold'),
+    url('/assets/font/Circe Rounded/CirceRounded-ExtraBold.otf') format('opentype');
 }

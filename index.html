@@ -11,15 +11,152 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class=" header_container container">
+                <section class="header_top d-flex-sb container">
+                    <div class="header_top__info d-flex-l">
+                        <div class="header_top__location d-flex-c">
+                            <img src="./assets/images/icons/location-icon.svg" alt="location" width="22" height="22">
+                            <p class="header_top__location-text">Ваш город: <select name="select" class="header_top__location-select">
+                                <option value="value1" selected class="header_top__location-city">Москва</option>
+                                <option value="value2" class="header_top__location-city">Минск</option>
+                                <option value="value3" class="header_top__location-city">Астана</option>
+                                <option value="value4" class="header_top__location-city">Ташкент</option>
+                                <option value="value5" class="header_top__location-city">Бишкек</option>
+                                <option value="value6" class="header_top__location-city">Душанбе</option>
+                            </select></p>
+                        </div>
+                        <div class="header_top__time d-flex-c">
+                            <img src="./assets/images/icons/alarm-icon.svg" alt="alarm icon" width="22" height="22">
+                            <p class="header_top__time-text">Пн-Пт 9:00 - 19:00</p>
+                        </div>
+                    </div>
+                    <ul class="header_top__list d-flex-c">
+                        <li><a href="#" class="header_top__item">О компании</a></li>
+                        <li><a href="#" class="header_top__item">Преимущества</a></li>
+                        <li><a href="#" class="header_top__item">Акционные товары</a></li>
+                        <li><a href="#" class="header_top__item header_top__item--flex"><img src="./assets/images/icons/head-user.svg" alt="user icon"> Войти в аккаунт</a></li>
+                    </ul>
+                </section>
+                <span class="header_line"></span>
+                <section class="header_mid d-flex-c container">
+                    <a href="#" class="header_mid__logo"><img src="./assets/images/icons/head-logo.svg" alt="header logo" width="231" height="42"></a>
+                    <div class="header_mid__cards d-flex-c">
+                        <div class="header_mid__card d-flex-c">
+                            <img src="./assets/images/icons/head-delivery-icon.svg" alt="box icon" width="28" height="28">
+                            <p class="head_mid__card head_mid__card--text1">Бесплатная<br>доставка</p>
+                        </div>
+                        <div class="header_mid__card d-flex-c">
+                            <img src="./assets/images/icons/head-credit-icon.svg" alt="card icon" width="28" height="28">
+                            <p class="head_mid__card head_mid__card--text2">Скидка при<br>оплате на сайте</p>
+                        </div>
+                        <div class="header_mid__card d-flex-c">
+                            <img src="./assets/images/icons/head-protection-icon.svg" alt="protection icon" width="28" height="28">
+                            <p class="head_mid__card head_mid__card--text2">Защита<br>покупателей</p>
+                        </div>
+                    </div>
+                    <span class="header_mid__line"></span>
+                    <div class="header_mid__media d-flex-c">
+                        <a href="https://telegram.org/"><img src="./assets/images/icons/head-telegram-icon.svg" alt="telegram logo" width="24" height="24"></a>
+                        <a href="https://www.whatsapp.com/"><img src="./assets/images/icons/head-whatsup-icon.svg" alt="whatsapp logo" width="24" height="24"></a>
+                        <a href="https://www.messenger.com/"><img src="./assets/images/icons/head-messenger-icon.svg" alt="messenger logo" width="24" height="24"></a>
+                    </div>
+                    <div class="header_mid__tell">
+                        <a href="tel:+8 916 460-19-60" class="header_mid__number">+8 916 460-19-60</a>
+                        <a href="tel:+8 916 460-19-60"><button class="header_mid__button"><img src="./assets/images/icons/head-phone-icon.svg" alt="phone icon" width="18" height="18">Заказать звонок</button></a>
+                    </div>
+                    <span class="header_mid__line header_mid__line--2"></span>
+                    <div class="header_mid__buy d-flex-c">
+                        <p class="header_mid__buy--text">Ваша корзина <br><span class="header_mid__buy--price">1680 руб.</span></p>
+                        <a href="#" class="head_mid__buy--link"> <img src="./assets/images/icons/head-shopping-icon.svg" alt="shopping icon" width="48" height="48" class="head_mid__buy--img"><p class="head_mid__buy--img2">5</p></a>
+                    </div>
+                </section>
+                <span class="header_line"></span>
 
-            </div>
-          </header>
+                <section class="header_bott d-flex-sb container">
+                    <ul class="head_bott__list d-flex-c">
+                        <li>
+                        <select name="select" class="header_bott__list--select">
+                            <option value="value1" selected class="header_bott__list--option">Рецепты</option>
+                            <option value="value2" class="header_bott__list--option">Блюда</option>
+                            <option value="value3" class="header_bott__list--option">Закуски</option>
+                            <option value="value4" class="header_bott__list--option">Десерты</option>
+                        </select>
+                        </li>
+                        <li><a href="#" class="head_bott__list--link">Доставка и оплата</a></li>
+                        <li><a href="#" class="head_bott__list--link">Калькулятор Сыродела</a></li>
+                        <li><a href="#" class="head_bott__list--link">Отзывы</a></li>
+                        <li><a href="#" class="head_bott__list--link">Вопросы и ответы</a></li>
+                        <li><a href="#" class="head_bott__list--link">Контакты</a></li>
+                    </ul>
+                    <div class="header_bott__group d-flex-c">
+                    <span class="header_bott__line"></span>
+                    <label for="header_bott__input" class="header_bott__label">
+                        <img src="./assets/images/icons/head-loupe-icon 2.svg" alt="loupe icon" class="header_bott__img" width="24" height="24">
+                        <input type="search" id="header_bott__input" placeholder="Введите название товара или артикул">
+                    </label>
+                    </div>
+                </section>
+                <span class="header_line"></span>
+        </header>
         <main>
         </main>
         <footer class="footer">
-              <div class="footer_container container ">
-              </div>  
+              <div class="footer_container container d-flex-sc">
+                <div class="footer_logo__block">
+                <a href="#"><img src="./assets/images/icons/footer_logo.svg" alt="footer logo" width="199" height="30" class="footer_logo__image"></a>
+                <p class="footer_logo__subtitle">Все материалы данного сайта являются объектами авторского права.</p>
+                <p class="footer_logo__undertitle">Разработка сайта: ЛяЧиз</p>
+                </div>
+                <div class="footer_company__block">
+                    <h3 class="footer_element__title">Компания</h3>
+                    <ul class="footer_element__list">
+                        <li><a href="#" class="footer_element__item">О компании</a></li>
+                        <li><a href="#" class="footer_element__item">Акции и скидки</a></li>
+                        <li><a href="#" class="footer_element__item">Доставка и оплата</a></li>
+                        <li><a href="#" class="footer_element__item">Отзывы</a></li>
+                        <li><a href="#" class="footer_element__item">Гарантия и возврат</a></li>
+                    </ul>
+                </div>
+                <div class="footer_support__block">
+                    <h3 class="footer_element__title">Поддержка</h3>
+                    <ul class="footer_element__list">
+                        <li><a href="#" class="footer_element__item">Вопрос и ответ</a></li>
+                        <li><a href="#" class="footer_element__item">Бонусная программа</a></li>
+                        <li><a href="#" class="footer_element__item">Политика конфиденциальности</a></li>
+                        <li><a href="#" class="footer_element__item">Персональные данных</a></li>
+                    </ul>
+                </div>
+                <div class="footer_pay__block">
+                    <h3 class="footer_element__title">Способы оплаты</h3>
+                    <div class="footer_element__group footer_element__group--1 d-flex-l">
+                        <a href="#"><img src="./assets/images/icons/footer_pay-ruble-icon.svg" alt="rouble logo" width="32" height="32"></a>
+                        <a href="#"><img src="./assets/images/icons/footer_pay-vector-icon.svg" alt="vector logo" width="32" height="32"></a>
+                        <a href="#"><img src="./assets/images/icons/footer_pay-sberbank-icon.svg" alt="sberbank logo" width="32" height="32"></a>
+                        <a href="#"><img src="./assets/images/icons/footer_pay-yandex-icon.svg" alt="yandex logo" width="32" height="32"></a>
+                    </div>
+                    <div class="footer_element__group d-flex-l">
+                        <a href="#"><img src="./assets/images/icons/footer_pay-master-card-logo.svg" alt="master card logo" width="32" height="32"></a>
+                        <a href="#"><img src="./assets/images/icons/footer_pay-visa-icon.svg" alt="visa logo" width="32" height="32"></a>
+                    </div>
+                </div>
+                <div class="footer_info__block">
+                    <a href="tel:+7 495 120-00-00" class="footer_info__number">+7 495 120-00-00</a>
+                    <div class="footer_info__time d-flex-c">
+                        <img src="./assets/images/icons/alarm-icon.svg" alt="alarm icon" width="22" height="22">
+                        <p class="footer_info__text">Пн-Пт 9:00 - 19:00</p>
+                    </div>
+                    <div class="footer_info__location d-flex-c">
+                        <img src="./assets/images/icons/location-icon.svg" alt="alarm icon" width="22" height="22">
+                        <p class="footer_info__text">г. Москва, улица Свободы 1/7</p>
+                    </div>
+                    <div class="footer_info__media d-flex-c">
+                        <a href="https://www.instagram.com/"><img src="./assets/images/icons/footer-media-instagramm-logo.svg" alt="instagram icon" width="24" height="24"></a>
+                        <a href="https://vk.com/"><img src="/assets/images/icons/footer-media-vk-logo.svg" alt="vk icon" width="24" height="24"></a>
+                        <a href="https://twitter.com/"><img src="/assets/images/icons/footer-media-twitter-logo.svg" alt="twitter icon" width="24" height="24"></a>
+                        <a href="https://facebook.com/"><img src="/assets/images/icons/footer-media-facebook-logo.svg" alt="facebook icon" width="24" height="24"></a>
+                        <a href="https://youtube.com/"><img src="/assets/images/icons/footer-media-youtube-logo.svg" alt="youtube icon" width="24" height="24"></a>
+                    </div>
+                </div>
+            </div>
         </footer>
 </body>
 </html>
