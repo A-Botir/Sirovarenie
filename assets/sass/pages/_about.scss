@@ -38,14 +38,22 @@
                             color: var(--primary-brown, #4E2D2D);
                             font-size: 14px;
                             font-weight: 600;
-                            line-height: 22px
+                            line-height: 22px;
                         }
                     }
                     .sidebar_nav__item{
                         padding: 12px 16px;
                         border-bottom: 1px solid #E6E6E6;
-                        .click-checkbox{
+                        .click-checkbox {
                             display: none;
+                    
+                            &:checked ~ .sidebar_nav__checked {
+                                display: block;
+                            }
+                    
+                            &:checked ~ .navbar_icon {
+                                transform: rotate(90deg);
+                            }
                         }
                         .sidebar_nav__check{
                             color: var(--primary-black, #292929);
@@ -55,7 +63,9 @@
                             cursor: pointer;
                         }
                         .sidebar_nav__checked{
+                            line-height: 30px;
                             display: none;
+                            margin-top: 6px;
                             .navbar__checked{
                                 color: var(--primary-black, #292929);
                                 font-size: 16px;
@@ -63,9 +73,6 @@
                                 line-height: 24px;
                                 margin-left: 10px;
                             }
-                        }
-                        .click-checkbox:checked + .sidebar_nav__checked {
-                            display: block;
                         }
                         .sidebar_nav__link{
                             color: var(--primary-black, #292929);
@@ -190,9 +197,11 @@
                         box-sizing: border-box;
                         max-width: 400px;
                         min-height: 170px;
-                        max-height: 171px;
                         .advanrage__card_img{
                             margin-bottom: 30px;
+                        }
+                        .advanrage__card_img--margin{
+                            margin-bottom: 20px;
                         }
                         .advanrage__card_text{
                             width: 350px;
